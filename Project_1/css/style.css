@@ -54,12 +54,12 @@ body {
   padding: 10px 13px;
 }
 
-.menu_list i {
+.menu_link i {
   font-size: 23px;
-  color: #000;
+  color: #8c8c8c;
 }
-
-.menu_link:hover {
+.menu_link:hover,
+.menu_link i:hover {
   color: #212121;
 }
 
@@ -420,7 +420,7 @@ body {
   font-weight: 300;
   margin-bottom: 20px;
   line-height: 24px;
-  }
+}
 
 .mobile_link {
   display: inline-block;
@@ -626,7 +626,7 @@ input[type="email"] {
   color: #6c6c6c;
   font-size: 22px;
   font-weight: 400;
-  margin-left: -35px;
+  margin-left: -45px;
   margin-top: 40px;
 }
 .input_button:hover {
